@@ -6,7 +6,7 @@ const app = express();
 
 app.use(express.json());
 
-app.post("/notes", async (req , res) => {
+app.post("/api/notes", async (req , res) => {
     const {title , description} = req.body ;
 
  const note =   await  noteModel.create({
