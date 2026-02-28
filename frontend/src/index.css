@@ -27,4 +27,32 @@ html{
   display: flex;
   gap: 5rem;
   text-align: center;
+  flex-wrap: wrap;
+}
+
+form{
+  width: 100%;
+  background-color: rgb(2, 12, 24);
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  gap: 20px;
+}
+
+form button{
+  padding: 10px 40px;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+}
+
+form input{
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  color: black;
+  background-color: rgb(213, 234, 241);
+}
+
+.note button{
+  padding: 10px 30px;
+  border-radius: 5px;
 }
